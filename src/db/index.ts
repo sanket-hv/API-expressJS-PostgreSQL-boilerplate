@@ -21,6 +21,6 @@ dbClient = new Sequelize(connectionOptions);
 
 initModels(dbClient);
 
-// dbClient.sync({ force: true })
+dbClient.sync({ force: true });
 
 export default dbClient;

@@ -1,1 +1,1 @@
-import { getChapters } from "./chapter.controller";
+export { getChapters, createChapter } from "./chapter.controller";
